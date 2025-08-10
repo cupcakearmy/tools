@@ -1,6 +1,17 @@
 {
   "name": "@nicco.io/tools",
   "version": "1.0.0",
+  "description": "Common tools",
+  "keywords": [
+    "prettier",
+    "eslint",
+    "personal",
+    "config",
+    "preset"
+  ],
+  "repository": "git@github.com:cupcakearmy/tools.git",
+  "license": "MIT",
+  "author": "Niccolo Borgioli <hi@nicco.io>",
   "exports": {
     "./eslint/solid": {
       "import": "./eslint/solid/index.mjs"
@@ -36,5 +47,8 @@
     "eslint": "^9.33.0",
     "prettier": "^3.6.2"
   },
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.14.0",
+  "publishConfig": {
+    "access": "public"
+  }
 }
