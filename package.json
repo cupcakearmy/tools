@@ -1,0 +1,40 @@
+{
+  "name": "@nicco.io/tools",
+  "version": "1.0.0",
+  "exports": {
+    "./eslint/solid": {
+      "import": "./eslint/solid/index.mjs"
+    },
+    "./eslint/prettier": {
+      "import": "./eslint/prettier/index.mjs"
+    },
+    "./prettier": {
+      "import": "./prettier/index.mjs"
+    }
+  },
+  "files": [
+    "eslint",
+    "prettier"
+  ],
+  "prettier": "./prettier/index.mjs",
+  "dependencies": {
+    "@eslint/compat": "^1.3.2",
+    "@eslint/js": "^9.33.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.6.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-solid": "^0.14.5",
+    "globals": "^16.3.0",
+    "prettier-plugin-packagejson": "^2.5.19",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "typescript-eslint": "^8.39.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
